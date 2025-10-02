@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/0d67422cdc6f9291b0afb0acb8752632/ogg-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/e1397376ed595ceed83859f39fa9f1eb/ogg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ogg-populate"
+		],
+		"name" : "ogg-populate"
+	}
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\e8d3a822c6b88dab7cb7d27a943ea349\flac-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\2bc7c232de6bc077b84de0767766a5ce\flac-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\flac-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B7126CEF-7224-3DF8-94AE-843C8DA14F76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

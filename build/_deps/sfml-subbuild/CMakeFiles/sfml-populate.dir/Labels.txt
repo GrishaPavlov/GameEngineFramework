@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/eb705f641e1a0a9dd0298444eecc7a72/sfml-populate.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/39f0a22695aa705e75d08a409a68c280/sfml-populate-complete.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-build.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-configure.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-download.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-install.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-mkdir.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-patch.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-test.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-subbuild/CMakeFiles/e311e516a2f452b4104c44119c8b0bdf/sfml-populate-update.rule

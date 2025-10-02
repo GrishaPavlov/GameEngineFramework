@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/flac-populate"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/2bc7c232de6bc077b84de0767766a5ce/flac-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/e8d3a822c6b88dab7cb7d27a943ea349/flac-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/dc0f8c4fb6b22acd53c7b3147a1aa965/flac-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flac-populate"
+		],
+		"name" : "flac-populate"
+	}
+}

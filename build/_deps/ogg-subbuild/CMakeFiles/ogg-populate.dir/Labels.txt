@@ -1,0 +1,14 @@
+# Target labels
+ ogg-populate
+# Source files and their labels
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/0d67422cdc6f9291b0afb0acb8752632/ogg-populate.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/e1397376ed595ceed83859f39fa9f1eb/ogg-populate-complete.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-build.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-configure.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-download.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-install.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-mkdir.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-patch.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-test.rule
+C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/7b7dacff944d3daf84a51fc98953df79/ogg-populate-update.rule

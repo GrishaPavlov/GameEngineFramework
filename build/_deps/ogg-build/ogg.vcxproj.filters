@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\src\bitwise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\src\framing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include\ogg\config_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include\ogg\ogg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include\ogg\os_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\src\crctable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F9E6BEC9-A633-377B-B014-7EA1446FE5AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1B6E1241-705D-3062-A4C0-E5BC5DBD4352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/d545e1f17fe1355a5fa9274cbf074478/vorbis-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/752c293706f5761e353e359f4e2b3212/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-subbuild/CMakeFiles/79c62743013cec4efdb97f2eda369f8d/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/361420e76e5c70a9197f6a670a5c28c2/freetype-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/76a79f549a605ac8f01b2727aef21043/freetype-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/1677c87df8b9fd1abf0b387f0c107c0e/freetype-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"freetype-populate"
+		],
+		"name" : "freetype-populate"
+	}
+}
