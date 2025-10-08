@@ -1,9 +1,9 @@
 # libvorbisenc pkg-config source file
 
-prefix=C:/Program Files (x86)/Project
-exec_prefix=C:/Program Files (x86)/Project/bin
-libdir=C:/Program Files (x86)/Project/lib
-includedir=C:/Program Files (x86)/Project/include
+prefix=C:/Program Files (x86)/CMakeSFMLProject
+exec_prefix=C:/Program Files (x86)/CMakeSFMLProject/bin
+libdir=C:/Program Files (x86)/CMakeSFMLProject/lib
+includedir=C:/Program Files (x86)/CMakeSFMLProject/include
 
 Name: vorbisenc
 Description: vorbisenc is a library that provides a convenient API for setting up an encoding environment using libvorbis

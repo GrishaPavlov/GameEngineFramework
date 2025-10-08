@@ -27,7 +27,7 @@ set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "CMakeSFMLProject built using CMak
 set(CPACK_GENERATOR "NSIS")
 set(CPACK_INNOSETUP_ARCHITECTURE "x64")
 set(CPACK_INSTALL_CMAKE_PROJECTS "C:/Users/Gregory/CppProjects/GameEngineFramework/build;CMakeSFMLProject;ALL;/")
-set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+set(CPACK_INSTALL_PREFIX "C:/Program Files (x86)/CMakeSFMLProject")
 set(CPACK_MODULE_PATH "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/cmake/Modules/;C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/cmake")
 set(CPACK_NSIS_DISPLAY_NAME "CMakeSFMLProject 1.3.5")
 set(CPACK_NSIS_INSTALLER_ICON_CODE "")
