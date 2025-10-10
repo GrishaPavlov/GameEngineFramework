@@ -1,143 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\block.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\block.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\window.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\analysis.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\analysis.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\synthesis.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\synthesis.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\info.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\info.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\floor1.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\floor1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\floor0.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\floor0.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\res0.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\res0.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\mapping0.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\mapping0.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\sharedbook.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\sharedbook.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\vorbisenc.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\vorbisenc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\misc.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\misc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\masking.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\masking.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\os.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\os.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\highlevel.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\highlevel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\scales.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\scales.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\window.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup_data.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\codec_internal.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\codec_internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\backends.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\backends.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\win32\vorbis.def">
+    <None Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\win32\vorbis.def">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F9E6BEC9-A633-377B-B014-7EA1446FE5AB}</UniqueIdentifier>
+      <UniqueIdentifier>{AB887E5D-31E9-3C80-9161-A02682479F11}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1B6E1241-705D-3062-A4C0-E5BC5DBD4352}</UniqueIdentifier>
+      <UniqueIdentifier>{EA44F7CD-27C4-3BAB-815D-15D9023EEF18}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

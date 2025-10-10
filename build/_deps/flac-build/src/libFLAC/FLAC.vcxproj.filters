@@ -1,128 +1,128 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\bitmath.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\bitmath.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\bitreader.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\bitreader.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\bitwriter.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\bitwriter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\cpu.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\cpu.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\crc.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\crc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_sse2.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_sse2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_ssse3.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_ssse3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_sse42.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_sse42.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_avx2.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\fixed_intrin_avx2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\float.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\float.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\format.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\format.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_neon.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_neon.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_sse2.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_sse2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_sse41.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_sse41.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_avx2.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_avx2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_fma.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\lpc_intrin_fma.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\md5.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\md5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\memory.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\memory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\metadata_iterators.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\metadata_iterators.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\metadata_object.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\metadata_object.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_decoder.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_decoder.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_sse2.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_sse2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_ssse3.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_ssse3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_avx2.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_intrin_avx2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_framing.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\stream_encoder_framing.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\window.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\window.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\share\win_utf8_io\win_utf8_io.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\share\win_utf8_io\win_utf8_io.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_decoder_aspect.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_decoder_aspect.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_encoder_aspect.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_encoder_aspect.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_helper.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_helper.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_mapping.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\ogg_mapping.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\include\share\win_utf8_io.h">
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\include\share\win_utf8_io.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\version.rc">
+    <ResourceCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src\src\libFLAC\version.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F9E6BEC9-A633-377B-B014-7EA1446FE5AB}</UniqueIdentifier>
+      <UniqueIdentifier>{AB887E5D-31E9-3C80-9161-A02682479F11}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1B6E1241-705D-3062-A4C0-E5BC5DBD4352}</UniqueIdentifier>
+      <UniqueIdentifier>{EA44F7CD-27C4-3BAB-815D-15D9023EEF18}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

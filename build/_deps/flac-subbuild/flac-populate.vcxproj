@@ -10,9 +10,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{22345C9F-A205-3575-92D1-C046DA62A69B}</ProjectGuid>
+    <ProjectGuid>{1F76C3B7-E124-3B40-BC48-7C2AA6E27F08}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>flac-populate</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-mkdirs.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-mkdirs.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-mkdir
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,21 +61,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-download.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-gitclone.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-download
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -83,20 +83,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\flac-populate-gitinfo.txt;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\flac-populate-gitinfo.txt;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-update.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-gitupdate.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/tmp/flac-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,23 +104,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\tmp\flac-populate-gitupdate.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\flac-populate-update-info.txt;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\tmp\flac-populate-gitupdate.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\flac-populate-update-info.txt;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-patch.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing patch step for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-src
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -DFLAC_DIR=C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-src -P C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/tools/flac/PatchFLAC.cmake
+"C:\Program Files\CMake\bin\cmake.exe" -DFLAC_DIR=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-src -P C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/tools/flac/PatchFLAC.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-patch
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,24 +128,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\flac-populate-patch-info.txt;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\flac-populate-patch-info.txt;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-configure.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-build
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-configure
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -153,23 +153,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\tmp\flac-populate-cfgcmd.txt;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\tmp\flac-populate-cfgcmd.txt;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-build.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-build
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-build
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,23 +177,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-install.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-build
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-install
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -201,23 +201,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\dc0f8c4fb6b22acd53c7b3147a1aa965\flac-populate-test.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\24b25632b510a3f5eef56ee8a5f3e3b6\flac-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-build
+cd C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-build
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-test
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -225,21 +225,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\e8d3a822c6b88dab7cb7d27a943ea349\flac-populate-complete.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\bdc469d2b985b20624177cc7796f67eb\flac-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'flac-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/Debug
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/Debug/flac-populate-complete
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/Debug/flac-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-done
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/Debug/flac-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -247,14 +247,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-install;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-mkdir;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-download;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-update;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-patch;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-configure;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-build;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\Debug\flac-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-install;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-mkdir;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-download;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-update;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-patch;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-configure;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-build;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\src\flac-populate-stamp\Debug\flac-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\Debug\flac-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\2bc7c232de6bc077b84de0767766a5ce\flac-populate.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\5b18b4e0ca840cb5d248b187c0c1541e\flac-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -264,18 +264,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\Debug\flac-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\flac-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\Debug\flac-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\flac-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild -BC:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild -BC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -283,19 +283,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\4.1.1\CMakeSystem.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\tmp\flac-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\4.1.2\CMakeSystem.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\flac-populate-prefix\tmp\flac-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\flac-populate">
+    <None Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\CMakeFiles\flac-populate">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\flac-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{84317591-DDC4-32BB-B6F1-24B8619ACAE2}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\flac-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{37BBF69D-3F66-3BCF-8A07-47386F898A0E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

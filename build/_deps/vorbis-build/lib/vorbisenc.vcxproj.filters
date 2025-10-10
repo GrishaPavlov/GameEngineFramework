@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\vorbisenc.c">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\vorbisenc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\win32\vorbisenc.def">
+    <None Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\win32\vorbisenc.def">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1B6E1241-705D-3062-A4C0-E5BC5DBD4352}</UniqueIdentifier>
+      <UniqueIdentifier>{EA44F7CD-27C4-3BAB-815D-15D9023EEF18}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,3 +1,3 @@
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/ZERO_CHECK.dir

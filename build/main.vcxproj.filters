@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\src\main.cpp">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\GamePlay\CounterComponent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1B6E1241-705D-3062-A4C0-E5BC5DBD4352}</UniqueIdentifier>
+      <UniqueIdentifier>{EA44F7CD-27C4-3BAB-815D-15D9023EEF18}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

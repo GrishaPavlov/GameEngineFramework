@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/flac-subbuild/cmake_install.cmake"
+		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

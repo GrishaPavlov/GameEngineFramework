@@ -7,5 +7,5 @@ C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/src/SFML/Graphics/Dependencies.cmake.in

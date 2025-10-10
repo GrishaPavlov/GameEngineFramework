@@ -25,9 +25,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B4261191-C2BB-30C1-A96C-1AC5CA4C077F}</ProjectGuid>
+    <ProjectGuid>{01F1094F-DBD1-3CD5-9D94-287CF4AE7529}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,7 +160,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,14 +168,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\ZERO_CHECK.vcxproj">
-      <Project>{5EDA2DEE-2743-37AC-80EE-7D5E25ADD41D}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\ZERO_CHECK.vcxproj">
+      <Project>{88F9EC4D-D4BB-3C12-B120-122F9FF306D6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-build\freetype.vcxproj">
-      <Project>{722FD740-B479-38C4-B179-BEE3AEE442EE}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-build\freetype.vcxproj">
+      <Project>{11869481-7878-30A1-9C13-7DE9F26E5209}</Project>
       <Name>freetype</Name>
     </ProjectReference>
   </ItemGroup>

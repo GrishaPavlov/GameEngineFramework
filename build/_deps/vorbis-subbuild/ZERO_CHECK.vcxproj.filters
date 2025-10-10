@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-subbuild\CMakeFiles\d545e1f17fe1355a5fa9274cbf074478\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-subbuild\CMakeFiles\4db8434cd135270b026df505682dc13d\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{D435C744-6823-3DA1-BCFF-6854689A718C}</UniqueIdentifier>
+      <UniqueIdentifier>{A645E78E-B9C8-302F-BC44-F59A8AF32746}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
