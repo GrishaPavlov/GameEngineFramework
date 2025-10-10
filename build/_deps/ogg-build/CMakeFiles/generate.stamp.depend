@@ -12,8 +12,8 @@ C:/Program Files/CMake/share/cmake-4.1/Modules/CheckTypeSize.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-4.1/Modules/WriteBasicConfigVersionFile.cmake
 C:/Program Files/CMake/share/cmake-4.1/Templates/CPackConfig.cmake.in
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/CMakeLists.txt
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/cmake/CheckSizes.cmake
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/cmake/OggConfig.cmake.in
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/include/ogg/config_types.h.in
-C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/ogg.pc.in
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/CMakeLists.txt
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/cmake/CheckSizes.cmake
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/cmake/OggConfig.cmake.in
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/include/ogg/config_types.h.in
+C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/ogg.pc.in

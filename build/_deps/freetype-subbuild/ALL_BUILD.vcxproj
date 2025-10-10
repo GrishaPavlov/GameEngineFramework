@@ -13,9 +13,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4BEA712D-375E-3060-9A9C-96F5B6F507CE}</ProjectGuid>
+    <ProjectGuid>{73E1D4B7-4EC6-3EE0-B00C-51EDEB58130A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -49,11 +49,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild -BC:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild -BC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,8 +61,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-subbuild\CMakeFiles\4.1.1\CMakeSystem.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-subbuild\freetype-populate-prefix\tmp\freetype-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Platform\WindowsPaths.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-subbuild\CMakeFiles\4.1.2\CMakeSystem.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-subbuild\freetype-populate-prefix\tmp\freetype-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -70,14 +70,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{C85A6963-41A5-3DC3-A447-D33AFF343596}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{A10704B5-02AF-3980-85AC-CBA2C815E262}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\freetype-subbuild\freetype-populate.vcxproj">
-      <Project>{C2ED26E9-6920-3D42-8747-7E25D15BDA09}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\freetype-subbuild\freetype-populate.vcxproj">
+      <Project>{AA7986CD-162A-3B82-88E8-26CC97CA21D3}</Project>
       <Name>freetype-populate</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

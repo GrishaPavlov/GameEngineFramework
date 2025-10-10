@@ -1,6 +1,6 @@
-^C:\USERS\GREGORY\CPPPROJECTS\GAMEENGINEFRAMEWORK\BUILD\_DEPS\FREETYPE-SRC\CMAKELISTS.TXT
+^C:\USERS\GREGORY\PROJECTS\GAMEENGINEFRAMEWORK\BUILD\_DEPS\FREETYPE-SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

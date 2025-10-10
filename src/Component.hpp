@@ -3,9 +3,10 @@
 
 class Component {
 public:
-    Component();
-    virtual void update();
-
+    Component() = default;
+    ~Component() = default;
+    virtual void update() {};
+    virtual void init() {};
 private:
     std::string name;
 };

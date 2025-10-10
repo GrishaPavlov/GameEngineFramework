@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DD606AAD-033C-3E70-AF2F-EC52C656E45B}</ProjectGuid>
+    <ProjectGuid>{B4D7C28D-3BD0-3535-A94A-36AD99376E4B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>vorbis</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vorbis.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vorbisd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vorbis.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vorbis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vorbis.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vorbis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vorbis.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vorbis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,8 +118,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -143,10 +143,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -159,8 +159,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
@@ -184,10 +184,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,8 +200,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-src/include" /external:I "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-build/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -224,10 +224,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -239,11 +239,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -251,12 +251,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,12 +264,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -277,12 +277,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -290,64 +290,64 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\misc.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\masking.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\os.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\highlevel.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\scales.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\window.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup_data.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\codec_internal.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\backends.h" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.h" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\block.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\window.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\analysis.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\synthesis.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\info.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\floor1.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\floor0.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\res0.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\mapping0.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\sharedbook.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.c" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\lib\vorbisenc.c" />
-    <None Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\vorbis-src\win32\vorbis.def" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\misc.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\masking.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\os.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\highlevel.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\scales.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\window.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup_data.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\codec_internal.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\backends.h" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.h" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\mdct.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\smallft.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\block.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\envelope.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\window.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lsp.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lpc.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\analysis.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\synthesis.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\psy.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\info.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\floor1.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\floor0.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\res0.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\mapping0.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\registry.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\codebook.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\sharedbook.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\lookup.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\bitrate.c" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\lib\vorbisenc.c" />
+    <None Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\vorbis-src\win32\vorbis.def" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\ZERO_CHECK.vcxproj">
-      <Project>{5EDA2DEE-2743-37AC-80EE-7D5E25ADD41D}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\ZERO_CHECK.vcxproj">
+      <Project>{88F9EC4D-D4BB-3C12-B120-122F9FF306D6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\ogg-build\ogg.vcxproj">
-      <Project>{7A065625-549E-31A7-9D3F-FA01724731B7}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\ogg-build\ogg.vcxproj">
+      <Project>{0E469A9E-4C37-3DCA-B820-9E52F9831271}</Project>
       <Name>ogg</Name>
     </ProjectReference>
   </ItemGroup>

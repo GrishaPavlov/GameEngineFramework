@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8DD83B3D-1E9A-33A1-8527-8974C21B5189}</ProjectGuid>
+    <ProjectGuid>{CD2BEA99-4B8D-3C52-8F32-EB920B321F79}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>sfml-system</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-system.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-system-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-system.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-system.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-system.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -101,15 +101,15 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\Debug\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\Debug\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,7 +122,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -146,15 +146,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\Release\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\Release\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -167,7 +167,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -191,15 +191,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,7 +212,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -235,15 +235,15 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -255,11 +255,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,12 +267,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,12 +280,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -293,12 +293,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework -BC:/Users/Gregory/CppProjects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework -BC:/Users/Gregory/Projects/GameEngineFramework/build --check-stamp-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -306,52 +306,52 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.1\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.1\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\String.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\String.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\String.inl" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Time.inl" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Vector2.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Vector3.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
-    <ClCompile Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp" />
-    <ClInclude Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\String.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\String.inl" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Time.inl" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Vector2.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Vector3.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp" />
+    <ClInclude Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Gregory\CppProjects\GameEngineFramework\build\ZERO_CHECK.vcxproj">
-      <Project>{5EDA2DEE-2743-37AC-80EE-7D5E25ADD41D}</Project>
+    <ProjectReference Include="C:\Users\Gregory\Projects\GameEngineFramework\build\ZERO_CHECK.vcxproj">
+      <Project>{88F9EC4D-D4BB-3C12-B120-122F9FF306D6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

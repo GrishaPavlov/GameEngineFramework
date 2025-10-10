@@ -1,6 +1,6 @@
-^C:\USERS\GREGORY\CPPPROJECTS\GAMEENGINEFRAMEWORK\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\361420E76E5C70A9197F6A670A5C28C2\GENERATE.STAMP.RULE
+^C:\USERS\GREGORY\PROJECTS\GAMEENGINEFRAMEWORK\BUILD\_DEPS\FREETYPE-SUBBUILD\CMAKEFILES\79A126E34CAF5F11C1F797AFDB3A50C3\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild -BC:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Gregory/CppProjects/GameEngineFramework/build/_deps/freetype-subbuild/freetype-populate.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild -BC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-subbuild/freetype-populate.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -2,12 +2,14 @@
 #include <string>
 #include <vector>
 #include "Component.hpp"
-
-class Entity {
-    public:
+class Entity
+{
+public:
     Entity(std::string name);
-    void addComponent(const Component component);
-    private:
+    void addComponent(Component *Component);
+    void update();
+
+private:
     std::string name = "";
-    std::vector<Component> components;
+    std::vector<Component *> components; 
 };

@@ -1,1 +1,4 @@
-C:\Users\Gregory\CppProjects\GameEngineFramework\src\main.cpp;C:\Users\Gregory\CppProjects\GameEngineFramework\build\main.dir\Debug\main.obj
+C:\Users\Gregory\Projects\GameEngineFramework\src\main.cpp;C:\Users\Gregory\Projects\GameEngineFramework\build\main.dir\Debug\main.obj
+C:\Users\Gregory\Projects\GameEngineFramework\src\Entity.cpp;C:\Users\Gregory\Projects\GameEngineFramework\build\main.dir\Debug\Entity.obj
+C:\Users\Gregory\Projects\GameEngineFramework\src\Scene.cpp;C:\Users\Gregory\Projects\GameEngineFramework\build\main.dir\Debug\Scene.obj
+C:\Users\Gregory\Projects\GameEngineFramework\src\GamePlay\CounterComponent.cpp;C:\Users\Gregory\Projects\GameEngineFramework\build\main.dir\Debug\CounterComponent.obj

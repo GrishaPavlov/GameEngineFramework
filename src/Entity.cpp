@@ -1,7 +1,15 @@
 #include "Entity.hpp"
 
-Entity::Entity(std::string name) {
-    this->name = name;
-}
+Entity::Entity(std::string name) : name(name) {}
 
-void Entity::addComponent(const Component component) { components.push_back(component); }
+void Entity::addComponent(Component *Component) {
+    components.push_back(Component);
+};
+
+
+
+void Entity::update() {
+    for (auto& component : components) {
+        component->update();
+    }
+}
