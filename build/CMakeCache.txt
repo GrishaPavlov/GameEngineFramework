@@ -26,37 +26,37 @@ CMAKE_BUILD_TYPE:STRING=Release
 CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the CXX compiler during all build types.
-CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /EHsc
+CMAKE_CXX_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3 /GR /EHsc
 
 //Flags used by the CXX compiler during DEBUG builds.
-CMAKE_CXX_FLAGS_DEBUG:STRING=/Ob0 /Od /RTC1
+CMAKE_CXX_FLAGS_DEBUG:STRING=/MDd /Zi /Ob0 /Od /RTC1
 
 //Flags used by the CXX compiler during MINSIZEREL builds.
-CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/O1 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
 
 //Flags used by the CXX compiler during RELEASE builds.
-CMAKE_CXX_FLAGS_RELEASE:STRING=/O2 /Ob2 /DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
 
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
-CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/O2 /Ob1 /DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C++ applications.
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
 
 //Flags used by the C compiler during all build types.
-CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS
+CMAKE_C_FLAGS:STRING=/DWIN32 /D_WINDOWS /W3
 
 //Flags used by the C compiler during DEBUG builds.
-CMAKE_C_FLAGS_DEBUG:STRING=/Ob0 /Od /RTC1
+CMAKE_C_FLAGS_DEBUG:STRING=/MDd /Zi /Ob0 /Od /RTC1
 
 //Flags used by the C compiler during MINSIZEREL builds.
-CMAKE_C_FLAGS_MINSIZEREL:STRING=/O1 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_MINSIZEREL:STRING=/MD /O1 /Ob1 /DNDEBUG
 
 //Flags used by the C compiler during RELEASE builds.
-CMAKE_C_FLAGS_RELEASE:STRING=/O2 /Ob2 /DNDEBUG
+CMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /Ob2 /DNDEBUG
 
 //Flags used by the C compiler during RELWITHDEBINFO builds.
-CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/O2 /Ob1 /DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /Ob1 /DNDEBUG
 
 //Libraries linked by default with all C applications.
 CMAKE_C_STANDARD_LIBRARIES:STRING=kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -173,7 +173,7 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=CMakeSFMLProject
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=3.0.2
+CMAKE_PROJECT_VERSION:STATIC=3.0.1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
@@ -182,7 +182,7 @@ CMAKE_PROJECT_VERSION_MAJOR:STATIC=3
 CMAKE_PROJECT_VERSION_MINOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=2
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -317,6 +317,14 @@ FETCHCONTENT_SOURCE_DIR_FLAC:PATH=
 FETCHCONTENT_SOURCE_DIR_FREETYPE:PATH=
 
 //When not empty, overrides where to find pre-populated content
+// for ImGui
+FETCHCONTENT_SOURCE_DIR_IMGUI:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for ImGui-SFML
+FETCHCONTENT_SOURCE_DIR_IMGUI-SFML:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for ogg
 FETCHCONTENT_SOURCE_DIR_OGG:PATH=
 
@@ -336,6 +344,12 @@ FETCHCONTENT_UPDATES_DISCONNECTED_FLAC:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of Freetype
 FETCHCONTENT_UPDATES_DISCONNECTED_FREETYPE:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of ImGui
+FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of ImGui-SFML
+FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI-SFML:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of ogg
 FETCHCONTENT_UPDATES_DISCONNECTED_OGG:BOOL=OFF
@@ -363,6 +377,27 @@ GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
 //Path to a program.
 HAVE_GIT:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
+//Path to a file.
+IMGUI_INCLUDE_DIR:PATH=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-src
+
+//Path to a directory containing user ImGui config
+IMGUI_SFML_CONFIG_DIR:PATH=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-src
+
+//Path where user's config header will be installed
+IMGUI_SFML_CONFIG_INSTALL_DIR:PATH=
+
+//Name of a custom user ImGui config header
+IMGUI_SFML_CONFIG_NAME:STRING=imconfig-SFML.h
+
+//Disable obsolete ImGui functions
+IMGUI_SFML_DISABLE_OBSOLETE_FUNCTIONS:BOOL=OFF
+
+//Enable compiler warnings
+IMGUI_SFML_ENABLE_WARNINGS:BOOL=OFF
+
+//Use default imconfig-SFML.h
+IMGUI_SFML_USE_DEFAULT_CONFIG:BOOL=ON
 
 //Install CMake package-config module
 INSTALL_CMAKE_CONFIG_MODULE:BOOL=ON
@@ -456,6 +491,15 @@ freetype_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 freetype_SOURCE_DIR:STATIC=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/freetype-src
+
+//Value Computed by CMake
+imgui_sfml_BINARY_DIR:STATIC=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-build
+
+//Value Computed by CMake
+imgui_sfml_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+imgui_sfml_SOURCE_DIR:STATIC=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-src
 
 //Value Computed by CMake
 libogg_BINARY_DIR:STATIC=C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-build
@@ -609,7 +653,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -676,7 +720,7 @@ CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //Test DODEFINE_EXTENSIONS
 DODEFINE_EXTENSIONS:INTERNAL=1
 //Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][found components: OpenGL ][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][ ][v()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[C:/msys64/ucrt64/bin/pkg-config.exe][v2.5.1()]
 //Details about finding Threads

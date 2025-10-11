@@ -52,13 +52,13 @@ endif()
 
 execute_process(
   COMMAND "C:/Program Files/Git/cmd/git.exe"
-          checkout "3.0.2" --
+          checkout "3.0.1" --
   WORKING_DIRECTORY "C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/sfml-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: '3.0.2'")
+  message(FATAL_ERROR "Failed to checkout tag: '3.0.1'")
 endif()
 
 set(init_submodules TRUE)

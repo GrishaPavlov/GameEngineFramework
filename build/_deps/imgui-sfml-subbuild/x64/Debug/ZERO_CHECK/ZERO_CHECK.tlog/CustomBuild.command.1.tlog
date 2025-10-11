@@ -1,0 +1,10 @@
+^C:\USERS\GREGORY\PROJECTS\GAMEENGINEFRAMEWORK\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\379B085B10B2D79FB4A2D5497ACAEE89\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-subbuild -BC:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

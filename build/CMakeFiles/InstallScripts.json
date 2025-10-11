@@ -17,7 +17,8 @@
 		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-build/src/libFLAC/cmake_install.cmake",
 		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/flac-build/microbench/cmake_install.cmake",
 		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/cmake_install.cmake",
-		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/lib/cmake_install.cmake"
+		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/vorbis-build/lib/cmake_install.cmake",
+		"C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/imgui-sfml-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

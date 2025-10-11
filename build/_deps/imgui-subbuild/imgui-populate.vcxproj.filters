@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c9598445275088c0d173af4a2d87f02b\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\c262cc7cabbcb712811dcb6238c70067\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\7831989fa6dd955e2ad437d26781e56d\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Gregory\Projects\GameEngineFramework\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BD506874-5FA9-3C46-9B93-76E49A9785F6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

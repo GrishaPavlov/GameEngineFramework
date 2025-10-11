@@ -95,6 +95,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatSpecificWarningsAsErrors>4289</TreatSpecificWarningsAsErrors>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
@@ -139,6 +140,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatSpecificWarningsAsErrors>4289</TreatSpecificWarningsAsErrors>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
@@ -185,6 +187,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatSpecificWarningsAsErrors>4289</TreatSpecificWarningsAsErrors>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
@@ -232,6 +235,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <SupportJustMyCode></SupportJustMyCode>
       <TreatSpecificWarningsAsErrors>4289</TreatSpecificWarningsAsErrors>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
