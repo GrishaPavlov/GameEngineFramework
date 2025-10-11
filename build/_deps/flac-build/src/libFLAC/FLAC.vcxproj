@@ -98,6 +98,7 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;FLAC__NO_DLL;NDEBUG;_DARWIN_C_SOURCE;_POSIX_PTHREAD_SEMANTICS;__STDC_WANT_IEC_60559_BFP_EXT__;__STDC_WANT_IEC_60559_DFP_EXT__;__STDC_WANT_IEC_60559_FUNCS_EXT__;__STDC_WANT_IEC_60559_TYPES_EXT__;__STDC_WANT_LIB_EXT2__;__STDC_WANT_MATH_SPEC_FUNCS__;_TANDEM_SOURCE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
@@ -142,6 +143,7 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLAC__NO_DLL;_DARWIN_C_SOURCE;_POSIX_PTHREAD_SEMANTICS;__STDC_WANT_IEC_60559_BFP_EXT__;__STDC_WANT_IEC_60559_DFP_EXT__;__STDC_WANT_IEC_60559_FUNCS_EXT__;__STDC_WANT_IEC_60559_TYPES_EXT__;__STDC_WANT_LIB_EXT2__;__STDC_WANT_MATH_SPEC_FUNCS__;_TANDEM_SOURCE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
@@ -185,6 +187,7 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLAC__NO_DLL;_DARWIN_C_SOURCE;_POSIX_PTHREAD_SEMANTICS;__STDC_WANT_IEC_60559_BFP_EXT__;__STDC_WANT_IEC_60559_DFP_EXT__;__STDC_WANT_IEC_60559_FUNCS_EXT__;__STDC_WANT_IEC_60559_TYPES_EXT__;__STDC_WANT_LIB_EXT2__;__STDC_WANT_MATH_SPEC_FUNCS__;_TANDEM_SOURCE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
@@ -229,6 +232,7 @@
       <SupportJustMyCode></SupportJustMyCode>
       <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;FLAC__NO_DLL;_DARWIN_C_SOURCE;_POSIX_PTHREAD_SEMANTICS;__STDC_WANT_IEC_60559_BFP_EXT__;__STDC_WANT_IEC_60559_DFP_EXT__;__STDC_WANT_IEC_60559_FUNCS_EXT__;__STDC_WANT_IEC_60559_TYPES_EXT__;__STDC_WANT_LIB_EXT2__;__STDC_WANT_MATH_SPEC_FUNCS__;_TANDEM_SOURCE;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>

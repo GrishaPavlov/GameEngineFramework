@@ -14,7 +14,7 @@
 # example:
 #   find_package(SFML COMPONENTS ...)     # no specific version required
 #   find_package(SFML 3 COMPONENTS ...)   # any 3.x version
-#   find_package(SFML 3.0.2 COMPONENTS ...) # version 3.0.2 or greater with the same major version
+#   find_package(SFML 3.0.1 COMPONENTS ...) # version 3.0.1 or greater with the same major version
 #
 # By default, the dynamic libraries of SFML will be found. To find the static ones instead,
 # you must set the SFML_STATIC_LIBRARIES variable to ON before calling find_package(SFML ...).
@@ -62,8 +62,6 @@
 #   find_package(SFML 3 COMPONENTS Graphics Audio REQUIRED)
 #   add_executable(myapp ...)
 #   target_link_libraries(myapp PRIVATE SFML::Graphics SFML::Audio)
-
-cmake_policy(VERSION 3.22...3.31)
 
 if(NOT SFML_FIND_COMPONENTS)
     message(FATAL_ERROR "find_package(SFML) called with no component")
@@ -190,5 +188,5 @@ else()
 endif()
 
 if(SFML_FOUND AND NOT SFML_FIND_QUIETLY)
-    message(STATUS "Found SFML 3.0.2 in ${CMAKE_CURRENT_LIST_DIR}")
+    message(STATUS "Found SFML 3.0.1 in ${CMAKE_CURRENT_LIST_DIR}")
 endif()
