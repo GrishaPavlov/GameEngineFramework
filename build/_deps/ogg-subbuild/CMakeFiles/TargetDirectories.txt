@@ -1,3 +1,0 @@
-C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.dir
-C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/Gregory/Projects/GameEngineFramework/build/_deps/ogg-subbuild/CMakeFiles/ZERO_CHECK.dir
