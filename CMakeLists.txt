@@ -29,7 +29,16 @@ FetchContent_Declare(ImGui-SFML
     SYSTEM)
 FetchContent_MakeAvailable(ImGui-SFML)
 
-add_executable(main src/main.cpp src/Entity.cpp src/Scene.cpp src/GamePlay/CounterComponent.cpp)
+add_executable(main src/main.cpp
+ src/Engine/Entity.cpp
+ src/Engine/Scene.cpp
+ src/Engine/Renderer.cpp
+ src/GamePlay/CounterComponent.cpp
+ src/Engine/Editor/Hierarchy.cpp
+ src/Engine/Editor/Inspector.cpp
+ src/Engine/Editor/Editor.cpp
+ 
+ )
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)
 

@@ -1,9 +1,9 @@
 #include <SFML/Graphics.hpp>
-#include "Scene.hpp"
-#include "Entity.hpp"
-#include "Component.hpp"
+#include "Engine/Scene.hpp"
+#include "Engine/Entity.hpp"
+#include "Engine/Component.hpp"
 #include "GamePlay/CounterComponent.hpp"
-
+#include "Engine/Editor/Hierarchy.hpp"
 #include <imgui-SFML.h>
 #include <imgui.h>
 
@@ -18,6 +18,8 @@ int main()
     counter.addComponent(count);
     Scene test("Test");
     test.addObject(counter);
+    Inspector insp;
+    Hierarchy hierarchy(test, insp);
 
     sf::Clock deltaClock;
     while (window.isOpen())
@@ -44,6 +46,8 @@ int main()
         ImGui::End();
         
         test.update();
+        hierarchy.Draw();
+        insp.Draw();
         window.clear();
         ImGui::SFML::Render(window);
         window.display();

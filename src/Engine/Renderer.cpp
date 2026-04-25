@@ -12,7 +12,11 @@ Renderer::Renderer(sf::RenderWindow &w, Scene &sc, Editor &edit) {
 void Renderer::Draw() {
     // window_->clear();
 
-    editor_->GetInspector().Draw();
+    editor_->GetInspector()->Draw();
     // ImGui::SFML::Render(*window_);
     // window_->display();
 }
+
+
+
+
