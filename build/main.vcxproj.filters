@@ -4,13 +4,25 @@
     <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Entity.cpp">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Engine\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Scene.cpp">
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Engine\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Engine\Renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\GamePlay\CounterComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Engine\Editor\Hierarchy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Engine\Editor\Inspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gregory\Projects\GameEngineFramework\src\Engine\Editor\Editor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,6 +1,9 @@
 #pragma once
-#include "../Component.hpp"
-#include "../Entity.hpp"
+#include "../Engine/Component.hpp"
+#include "../Engine/Entity.hpp"
+#include <imgui.h>
+#include <imgui-SFML.h>
+
 class CounterComponent : public Component
 {
 public:
@@ -9,6 +12,7 @@ public:
     ~CounterComponent();
     void init() override;
     void update() override;
+    void draw() override;
 private:
     int counter;
 };

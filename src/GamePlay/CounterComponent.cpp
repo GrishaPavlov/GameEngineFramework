@@ -23,3 +23,9 @@ void CounterComponent::update()
     if (counter % 10)
         std::cout << counter << std::endl;
 }
+
+void CounterComponent::draw()
+{
+    ImGui::Separator();                               
+    ImGui::Text(std::to_string(counter).c_str());
+}
