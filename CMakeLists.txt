@@ -31,8 +31,11 @@ FetchContent_MakeAvailable(ImGui-SFML)
 
 add_executable(main src/main.cpp
  src/Engine/Entity.cpp
+ src/Engine/Component.cpp
  src/Engine/Scene.cpp
  src/Engine/Renderer.cpp
+ src/Engine/SpriteRenderer.cpp
+ src/Engine/TransformComponent.cpp
  src/GamePlay/CounterComponent.cpp
  src/Engine/Editor/Hierarchy.cpp
  src/Engine/Editor/Inspector.cpp
