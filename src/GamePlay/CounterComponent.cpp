@@ -20,12 +20,13 @@ void CounterComponent::init()
 void CounterComponent::update()
 {
     counter++;
-    if (counter % 10)
-        std::cout << counter << std::endl;
+    // if (counter % 10)
+        // std::cout << counter << std::endl;
 }
 
 void CounterComponent::draw()
 {
     ImGui::Separator();                               
     ImGui::Text(std::to_string(counter).c_str());
+    ImGui::Text(Component::getEntity()->GetName().c_str());
 }
