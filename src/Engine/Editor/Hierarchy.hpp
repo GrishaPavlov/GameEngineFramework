@@ -13,6 +13,5 @@ public:
 
 private:
     Scene& scene;              // ← Ссылка!
-    Inspector& inspector;
-    std::vector<Entity*> entities;
+    Inspector* inspector;
 };

@@ -8,7 +8,7 @@ public:
     Scene(std::string name, std::vector<Entity> entities) 
         : name_(std::move(name)), entities_(std::move(entities)) {}
     
-    Scene& Scene::operator=(const Scene& other);
+    Scene& operator=(const Scene& other);
 
     std::vector<Entity>& getEntities()
     {

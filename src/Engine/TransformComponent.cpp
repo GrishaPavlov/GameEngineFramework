@@ -12,22 +12,26 @@ sf::Transform* TransformComponent::getTransform()
 
 sf::Vector2f TransformComponent::getPosition()
 {
-    return position;
+    return sf::Vector2f(x, y);
 }
 
 void TransformComponent::init()
 {
-
 }
 
 void TransformComponent::update()
 {
+    position = sf::Vector2f(x, y);
 }
 
 void TransformComponent::draw()
 {
-      ImGui::Separator();                               
-    ImGui::Text(std::to_string(position.x).c_str());
-    ImGui::Text(std::to_string(position.y).c_str());
-    ImGui::Text(Component::getEntity()->GetName().c_str());
+    ImGui::Separator();
+    sf::Vector2f p = getPosition();
+    ImGui::Text(std::to_string(p.x).c_str());
+    ImGui::Text(std::to_string(p.y).c_str());
+    Entity* ent = getEntity();
+    if (ent) {
+        ImGui::Text(ent->GetName().c_str());
+    }
 }

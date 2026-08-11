@@ -15,6 +15,7 @@ Scene& Scene::operator=(const Scene& other)
 void Scene::addObject(Entity entity)
 {
     entities_.push_back(entity);
+    entities_.back().refreshComponentOwners();
 }
 
 void Scene::update()

@@ -31,6 +31,15 @@ void Entity::addComponent(Component* comp)
 //     return nullptr;
 // }
 
+void Entity::init()
+{
+    for (auto* component : components) {
+        if (component) {
+            component->init();
+        }
+    }
+}
+
 void Entity::update()
 {
     for (auto& component : components) {
@@ -38,10 +47,18 @@ void Entity::update()
     }
 }
 
-void Entity::setId(uint8_t givenId)
+void Entity::refreshComponentOwners()
 {
-    if (givenId >= 0)
-        id_ = givenId;
+    for (auto* component : components) {
+        if (component) {
+            component->setEntity(this);
+        }
+    }
+}
+
+void Entity::setId(uint16_t givenId)
+{
+    id_ = givenId;
 }
 
 void Entity::DebugPrintComponents() const {
@@ -60,8 +77,9 @@ void Entity::DebugPrintComponents() const {
 
 void Entity::PrintComponents()
 {
-    std::cout << "lalala" << std::endl;
     for (size_t i = 0; i < components.size(); ++i) {
-        std::cout << "Index " << i << ": " << components[i]->GetName() << std::endl;
+        if (components[i]) {
+            std::cout << "[" << i << "] " << components[i]->GetName() << std::endl;
+        }
     }
 }

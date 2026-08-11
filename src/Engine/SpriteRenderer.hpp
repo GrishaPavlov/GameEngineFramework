@@ -33,5 +33,6 @@ private:
     sf::Texture texture;
     sf::Sprite sprite { texture };
 
+    bool hasExplicitPosition_ = false;
     sf::Vector2f relativePosition = sf::Vector2f(0, 0);
 };

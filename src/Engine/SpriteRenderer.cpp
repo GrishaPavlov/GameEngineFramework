@@ -14,14 +14,17 @@ SpriteRenderer::SpriteRenderer(const std::string& texturePath, sf::Vector2f pos)
         std::cerr << "Failed to load: " << texturePath << std::endl;
     }
     sprite.setTexture(texture);
-    // sf::Vector2f transform = getEntity()->getPosition();
+    hasExplicitPosition_ = true;
     sprite.setPosition(sf::Vector2f(pos.x, pos.y));
 }
 
 void SpriteRenderer::init()
 {
-    sf::Vector2f transform = getEntity()->getPosition();
-    sprite.setPosition(sf::Vector2f(transform.x, transform.y));
+    Entity* ent = getEntity();
+    if (!ent || hasExplicitPosition_) {
+        return;
+    }
+    sprite.setPosition(ent->getPosition());
 }
 
 void SpriteRenderer::update()
@@ -35,6 +38,11 @@ void SpriteRenderer::draw()
 
 void SpriteRenderer::setTexture(const std::string& path)
 {
+    if (!texture.loadFromFile(path)) {
+        std::cerr << "Failed to load: " << path << std::endl;
+        return;
+    }
+    sprite.setTexture(texture);
 }
 
 sf::Texture SpriteRenderer::createEmptyTexture()

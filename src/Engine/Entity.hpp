@@ -11,8 +11,11 @@ public:
     Entity();
     Entity(std::string name);
     void addComponent(Component* comp);
+    void init();
     void update();
-    void setId(uint8_t);
+    void setId(uint16_t);
+    void SetName(const std::string& newName) { name = newName; }
+    void refreshComponentOwners();
     std::vector<Component*>& GetComponents() { return components; }
     std::string GetName() { return name; };
     void PrintComponents();
