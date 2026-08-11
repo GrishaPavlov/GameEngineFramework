@@ -13,3 +13,4 @@ Entity* Component::getEntity()
 {
     return entity;
 }
+std::atomic<uint32_t> Component::nextID(0);

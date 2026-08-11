@@ -11,20 +11,51 @@
 
 int main()
 {
-    auto window = sf::RenderWindow(sf::VideoMode({ 1920u, 1080u }), "CMake SFML Project");
+    system("cd");
+    auto window = sf::RenderWindow(sf::VideoMode({ 1280u, 720u }), "CMake SFML Project");
     window.setFramerateLimit(144);
     ImGui::SFML::Init(window);
 
     Entity counter("Counter");
     CounterComponent* count = new CounterComponent(5);
-    SpriteRenderer* spriteRend = new SpriteRenderer();
+    SpriteRenderer* spriteRend = new SpriteRenderer(
+        "C:/Users/Gregory/Projects/GameEngineFramework/src/Sprites/test.png",
+         sf::Vector2f(200, 200)
+        );
+
+
+    auto& spr = spriteRend->getSprite();
+
+std::cout << "Texture size: "
+          << spr.getTexture().getSize().x << " x "
+          << spr.getTexture().getSize().y << "\n";
+
+std::cout << "Sprite position: "
+          << spr.getPosition().x << ", " << spr.getPosition().y << "\n";
+
+std::cout << "Sprite scale: "
+          << spr.getScale().x << ", " << spr.getScale().y << "\n";
+
+std::cout << "Sprite color: "
+          << static_cast<int>(spr.getColor().r) << ", "
+          << static_cast<int>(spr.getColor().g) << ", "
+          << static_cast<int>(spr.getColor().b) << ", "
+          << static_cast<int>(spr.getColor().a) << "\n";
+
+
+sf::RectangleShape box(sf::Vector2f(100.f, 100.f));
+box.setFillColor(sf::Color::White);
+box.setPosition(sf::Vector2f(100.f, 100.f));
+    // window.draw(spriteRend->getSprite());
+    // SpriteRenderer* spriteRend = new SpriteRenderer();
     TransformComponent* transformcomp = new TransformComponent();
     sf::Texture textt = spriteRend->getCurrentTexture();
-    counter.addComponent(spriteRend);
-    counter.addComponent(count);
     counter.addComponent(transformcomp);
+    counter.addComponent(count);
+    counter.addComponent(spriteRend);
     Scene test("Test");
     test.addObject(counter);
+    counter.DebugPrintComponents();
     Inspector insp;
     Hierarchy hierarchy(test, insp);
 
@@ -55,9 +86,8 @@ int main()
         hierarchy.Draw();
         insp.Draw();
         window.clear();
-        sf::Sprite sprite(textt);
-        sprite.setPosition(sf::Vector2f(100, 100));
-        window.draw(sprite);
+        window.draw(spriteRend->getSprite());
+        window.draw(box);
         ImGui::SFML::Render(window);
         // window.draw(box);
         window.display();

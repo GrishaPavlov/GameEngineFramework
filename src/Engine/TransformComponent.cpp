@@ -10,6 +10,11 @@ sf::Transform* TransformComponent::getTransform()
     return &transform;
 }
 
+sf::Vector2f TransformComponent::getPosition()
+{
+    return position;
+}
+
 void TransformComponent::init()
 {
 
