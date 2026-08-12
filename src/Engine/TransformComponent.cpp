@@ -27,11 +27,10 @@ void TransformComponent::update()
 void TransformComponent::draw()
 {
     ImGui::Separator();
-    sf::Vector2f p = getPosition();
-    ImGui::Text(std::to_string(p.x).c_str());
-    ImGui::Text(std::to_string(p.y).c_str());
     Entity* ent = getEntity();
     if (ent) {
-        ImGui::Text(ent->GetName().c_str());
+        ImGui::Text("Entity: %s", ent->GetName().c_str());
     }
+    ImGui::DragFloat("X", &x, 1.0f);
+    ImGui::DragFloat("Y", &y, 1.0f);
 }

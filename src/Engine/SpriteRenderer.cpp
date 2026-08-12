@@ -8,27 +8,26 @@ SpriteRenderer::SpriteRenderer(const std::string& texturePath)
     sprite.setTexture(texture);
 }
 
-SpriteRenderer::SpriteRenderer(const std::string& texturePath, sf::Vector2f pos)
-{
-    if (!texture.loadFromFile(texturePath)) {
-        std::cerr << "Failed to load: " << texturePath << std::endl;
-    }
-    sprite.setTexture(texture);
-    hasExplicitPosition_ = true;
-    sprite.setPosition(sf::Vector2f(pos.x, pos.y));
-}
-
 void SpriteRenderer::init()
 {
-    Entity* ent = getEntity();
-    if (!ent || hasExplicitPosition_) {
-        return;
-    }
-    sprite.setPosition(ent->getPosition());
+    sprite.setPosition(getObjectPosition());
 }
 
 void SpriteRenderer::update()
 {
+    sprite.setPosition(getObjectPosition());
+}
+
+sf::Vector2f SpriteRenderer::getObjectPosition()
+{
+    Entity* ent = getEntity();
+    if (ent) {
+        if (auto* tc = ent->GetComponent<TransformComponent>()) {
+            return tc->getPosition();
+        }
+        return ent->getPosition();
+    }
+    return sf::Vector2f(0, 0);
 }
 
 void SpriteRenderer::draw()

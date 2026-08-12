@@ -11,7 +11,6 @@ class SpriteRenderer : public Component {
 public:
     SpriteRenderer() = default;
     SpriteRenderer(const std::string& texturePath);
-    SpriteRenderer(const std::string& texturePath, sf::Vector2f pos);
     void init() override;
     void update() override;
     void draw() override;
@@ -30,10 +29,8 @@ public:
 
 private:
     sf::Texture createEmptyTexture();
+    sf::Vector2f getObjectPosition();
 
     sf::Texture texture;
     sf::Sprite sprite { texture };
-
-    bool hasExplicitPosition_ = false;
-    sf::Vector2f relativePosition = sf::Vector2f(0, 0);
 };

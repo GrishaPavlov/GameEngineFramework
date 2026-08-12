@@ -33,8 +33,10 @@ int main()
 
     Entity counter("Counter");
     CounterComponent* count = new CounterComponent(5);
-    SpriteRenderer* spriteRend = new SpriteRenderer(ResolveTexturePath(), sf::Vector2f(200, 200));
+    SpriteRenderer* spriteRend = new SpriteRenderer(ResolveTexturePath());
     TransformComponent* transformcomp = new TransformComponent();
+    transformcomp->x = 200;
+    transformcomp->y = 200;
 
     counter.addComponent(transformcomp);
     counter.addComponent(count);
