@@ -1,10 +1,12 @@
-#include "Engine/Component.hpp"
-#include "Engine/Editor/Hierarchy.hpp"
-#include "Engine/Entity.hpp"
-#include "Engine/Scene.hpp"
 #include "Engine/SpriteRenderer.hpp"
-#include "GamePlay/CounterComponent.hpp"
 #include "Engine/TransformComponent.hpp"
+#include "Engine/Editor/Editor.hpp"
+#include "Engine/Editor/Hierarchy.hpp"
+#include "Engine/Editor/Inspector.hpp"
+#include "Engine/Renderer.hpp"
+#include "Engine/Scene.hpp"
+#include "Engine/Entity.hpp"
+#include "GamePlay/CounterComponent.hpp"
 #include <SFML/Graphics.hpp>
 #include <imgui-SFML.h>
 #include <imgui.h>
@@ -32,20 +34,22 @@ int main()
     Entity counter("Counter");
     CounterComponent* count = new CounterComponent(5);
     SpriteRenderer* spriteRend = new SpriteRenderer(ResolveTexturePath(), sf::Vector2f(200, 200));
-
-    sf::RectangleShape box(sf::Vector2f(100.f, 100.f));
-    box.setFillColor(sf::Color::White);
-    box.setPosition(sf::Vector2f(100.f, 100.f));
-
     TransformComponent* transformcomp = new TransformComponent();
+
     counter.addComponent(transformcomp);
     counter.addComponent(count);
     counter.addComponent(spriteRend);
     counter.init();
+
     Scene test("Test");
     test.addObject(counter);
+
     Inspector insp;
     Hierarchy hierarchy(test, insp);
+    Editor editor(insp);
+    editor.SetHierarchy(hierarchy);
+
+    Renderer renderer(window, test, editor);
 
     sf::Clock deltaClock;
     while (window.isOpen()) {
@@ -62,18 +66,9 @@ int main()
 
         ImGui::SFML::Update(window, deltaClock.restart());
 
-        ImGui::Begin("Hello, world!");
-        ImGui::Button("Look at this pretty button");
-        ImGui::End();
-
         test.update();
-        hierarchy.Draw();
-        insp.Draw();
-        window.clear();
-        window.draw(spriteRend->getSprite());
-        window.draw(box);
-        ImGui::SFML::Render(window);
-        window.display();
+
+        renderer.Draw();
     }
     ImGui::SFML::Shutdown();
 

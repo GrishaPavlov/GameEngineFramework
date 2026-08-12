@@ -16,6 +16,7 @@ public:
     void update() override;
     void draw() override;
 
+    void drawTo(sf::RenderTarget& target);
     sf::Texture& getCurrentTexture() { return texture; };
     const sf::Sprite& getSprite() const { return sprite; }
     void setTexture(const std::string& path);

@@ -33,7 +33,12 @@ void SpriteRenderer::update()
 
 void SpriteRenderer::draw()
 {
-    // std::cout<<"I'm drawing"<<"/n";
+    // The actual rendering happens via Renderer calling drawTo().
+}
+
+void SpriteRenderer::drawTo(sf::RenderTarget& target)
+{
+    target.draw(sprite);
 }
 
 void SpriteRenderer::setTexture(const std::string& path)
