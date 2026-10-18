@@ -7,6 +7,7 @@ public:
     Editor() = default;
     Editor(Inspector &insp);
     
+    void Draw();
     void SetHierarchy(Hierarchy &hier);
     Hierarchy* GetHierarchy();
 

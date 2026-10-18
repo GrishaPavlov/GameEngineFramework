@@ -20,6 +20,26 @@ void Entity::addComponent(Component* comp)
     }
 };
 
+// template<typename T>
+// const T* Entity::GetComponent() const {
+//     uint32_t targetID = Component::GetTypeID<T>();
+//     for (auto* comp : components) {
+//         if (comp && comp->GetRuntimeTypeID() == targetID) {
+//             return dynamic_cast<const T*>(comp);
+//         }
+//     }
+//     return nullptr;
+// }
+
+void Entity::init()
+{
+    for (auto* component : components) {
+        if (component) {
+            component->init();
+        }
+    }
+}
+
 void Entity::update()
 {
     for (auto& component : components) {
@@ -27,8 +47,39 @@ void Entity::update()
     }
 }
 
-void Entity::setId(uint8_t givenId)
+void Entity::refreshComponentOwners()
 {
-    if (givenId >= 0)
-        id_ = givenId;
+    for (auto* component : components) {
+        if (component) {
+            component->setEntity(this);
+        }
+    }
+}
+
+void Entity::setId(uint16_t givenId)
+{
+    id_ = givenId;
+}
+
+void Entity::DebugPrintComponents() const {
+    std::cout << "Entity '" << name << "' components (" << components.size() << "):\n";
+    
+    for (size_t i = 0; i < components.size(); ++i) {
+        auto* comp = components[i];
+        if (comp) {
+            std::cout << "  [" << i << "] " << comp->GetName() 
+                      << " (ID: " << comp->GetRuntimeTypeID() << ")\n";
+        } else {
+            std::cout << "  [" << i << "] NULL\n";
+        }
+    }
+}
+
+void Entity::PrintComponents()
+{
+    for (size_t i = 0; i < components.size(); ++i) {
+        if (components[i]) {
+            std::cout << "[" << i << "] " << components[i]->GetName() << std::endl;
+        }
+    }
 }

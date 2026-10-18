@@ -3,13 +3,16 @@
 #include <imgui-SFML.h>
 #include <imgui.h>
 #include "Scene.hpp"
+#include "SpriteRenderer.hpp"
 #include "Editor/Editor.hpp"
 class Renderer {
 public:
-    Renderer(sf::RenderWindow &w, Scene &sc, Editor &edit);
+    Renderer(sf::RenderWindow& w, Scene& sc, Editor& edit);
     void Draw();
+    void drawScene();
 private:
-    sf::RenderWindow *window_;
-    Scene *currentScene_;
-    Editor *editor_;
+    void drawImGui();
+    sf::RenderWindow* window_;
+    Scene* currentScene_;
+    Editor* editor_;
 };

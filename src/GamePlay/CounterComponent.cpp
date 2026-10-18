@@ -14,7 +14,6 @@ CounterComponent::CounterComponent(int c)
 
 void CounterComponent::init()
 {
-    counter = 0;
 }
 
 void CounterComponent::update()
@@ -26,7 +25,10 @@ void CounterComponent::update()
 
 void CounterComponent::draw()
 {
-    ImGui::Separator();                               
+    ImGui::Separator();
     ImGui::Text(std::to_string(counter).c_str());
-    ImGui::Text(Component::getEntity()->GetName().c_str());
+    Entity* ent = getEntity();
+    if (ent) {
+        ImGui::Text(ent->GetName().c_str());
+    }
 }

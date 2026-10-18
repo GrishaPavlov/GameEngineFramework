@@ -13,6 +13,14 @@ public:
     void init() override;
     void update() override;
     void draw() override;
+
+    
+    std::string GetName() const override { return "Counter Component"; }
+
+    uint32_t GetRuntimeTypeID() const override
+    {
+        return Component::GetTypeID<CounterComponent>(); // ← Вызываем шаблон!
+    }
 private:
     int counter;
 };

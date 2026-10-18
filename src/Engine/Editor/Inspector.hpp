@@ -16,6 +16,8 @@ public:
     void SetEntity(Entity &ent);
     void PrintEntityName();
 private:
+    void SyncNameBuffer();
     std::string name_ = "";
+    char nameBuf_[64] = {};
     Entity *curEntity_;
 };
