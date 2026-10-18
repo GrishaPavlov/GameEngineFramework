@@ -31,9 +31,9 @@ void Inspector::Draw()
             name_ = nameBuf_;
             curEntity_->SetName(name_);
         }
-        for (auto* c : curEntity_->GetComponents()) {
+        for (auto& c : curEntity_->GetComponents()) {
             ImGui::Text(c->GetName().data());
-            if (auto* sr = dynamic_cast<SpriteRenderer*>(c)) {
+            if (auto* sr = dynamic_cast<SpriteRenderer*>(c.get())) {
                 const auto& t = sr->getCurrentTexture();
                 if (t.getSize().x > 0 && t.getSize().y > 0) {
                     ImGui::Text("Texture: %ux%u", t.getSize().x, t.getSize().y);

@@ -68,20 +68,14 @@ int main(int argc, char** argv)
     window.setFramerateLimit(144);
     (void)ImGui::SFML::Init(window);
 
-    Entity counter("Counter");
-    CounterComponent* count = new CounterComponent(5);
-    SpriteRenderer* spriteRend = new SpriteRenderer(ResolveTexturePath(argv0));
-    TransformComponent* transformcomp = new TransformComponent();
-    transformcomp->x = 200;
-    transformcomp->y = 200;
-
-    counter.addComponent(transformcomp);
-    counter.addComponent(count);
-    counter.addComponent(spriteRend);
-    counter.init();
-
     Scene test("Test");
-    test.addObject(counter);
+
+    Entity& counter = test.createEntity("Counter");
+    auto* transform = counter.addComponent<TransformComponent>();
+    transform->position = { 200.f, 200.f };
+    counter.addComponent<CounterComponent>(5);
+    counter.addComponent<SpriteRenderer>(ResolveTexturePath(argv0));
+    counter.init();
 
     Inspector insp;
     Hierarchy hierarchy(test, insp);

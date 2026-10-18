@@ -14,9 +14,9 @@ void Hierarchy::Draw()
     ImGui::Begin("Hierarchy");
     auto& scene_entities = scene.getEntities();
     for (size_t i = 0; i < scene_entities.size(); ++i) {
-        if (ImGui::Button(scene_entities[i].GetName().c_str())) {
+        if (ImGui::Button(scene_entities[i]->GetName().c_str())) {
             if (inspector) {
-                inspector->SetEntity(scene_entities[i]);
+                inspector->SetEntity(*scene_entities[i]);
             }
         }
     }
