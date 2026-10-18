@@ -20,10 +20,12 @@ Every `Component` subclass (see `CounterComponent`, `SpriteRenderer`, `Transform
 - `Component::GetTypeID<T>()` is the project's RTTI substitute (template static with atomic counter). Do not invent another ID scheme.
 - Init/update/draw are no-op virtuals; `setEntity` back-pointer is set by `Entity::addComponent`.
 
-## Ownership model (do not "fix" casually)
+## Ownership model
 
-- `Entity` owns `std::vector<Component*>` raw pointers and has **no destructor** — components are deliberately leaked (see `main.cpp` which `new`s them).
-- `Scene` stores `Entity` **by value**; `Scene::addObject(Entity)` and `operator=` shallow-copy. `addObject` re-attaches the stored copy's component back-pointers via `refreshComponentOwners()`, but any later reallocation of the scene vector leaves those pointers stale. Adding a destructor to `Entity` that deletes components would cause double-frees. Reworking this is a design decision, not a quick fix.
+- `Scene` owns entities as `std::vector<std::unique_ptr<Entity>>`; create them with `scene.createEntity(name)` (returns `Entity&`). Entity addresses are stable, so the `Entity*` back-pointers in components and the editor's `Inspector` stay valid when the vector grows.
+- `Entity` owns components as `std::unique_ptr<Component>`; add them with `entity.addComponent<T>(ctorArgs...)` (returns `T*`). `Entity` is non-copyable and non-movable because components point back to it.
+- `Component` has a virtual destructor. Don't declare a destructor in a subclass without defining it — it is now referenced from the vtable and will fail to link.
+- `TransformComponent` (`position`, `rotation` in degrees, `scale`) is the single source of an entity's placement; `Entity` no longer derives from `sf::Transformable`. `SpriteRenderer` copies the transform onto its sprite every `update()`.
 - `Entity::init()` calls `init()` on every component; call it after assembling an entity's components (see `main.cpp`).
 
 ## Windows-specific quirks

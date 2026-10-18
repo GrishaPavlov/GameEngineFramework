@@ -6,13 +6,12 @@
 #include <imgui.h>
 #include <iostream>
 
+// Единственный источник положения объекта в мире.
 class TransformComponent : public Component {
 public:
-    TransformComponent();
-    sf::Transform* getTransform();
-    sf::Vector2f getPosition();
-    void init() override;
-    void update() override;
+    TransformComponent() = default;
+    sf::Transform getTransform() const;
+    sf::Vector2f getPosition() const { return position; }
     void draw() override;
 
     std::string GetName() const override { return "Transform"; }
@@ -22,10 +21,7 @@ public:
         return Component::GetTypeID<TransformComponent>(); // ← Вызываем шаблон!
     }
 
-    float x = 0;
-    float y = 0;
-
-private:
-    sf::Transform transform;
-    sf::Vector2f position = sf::Vector2f(0, 0);
+    sf::Vector2f position { 0.f, 0.f };
+    float rotation = 0.f; // градусы
+    sf::Vector2f scale { 1.f, 1.f };
 };

@@ -12,13 +12,15 @@ Entity::Entity(std::string name)
     id_ = 0;
 }
 
-void Entity::addComponent(Component* comp)
+Component* Entity::addComponent(std::unique_ptr<Component> comp)
 {
-    if (comp) { // ← 3. Проверка nullptr!
-        comp->setEntity(this);
-        components.push_back(comp);
+    if (!comp) {
+        return nullptr;
     }
-};
+    comp->setEntity(this);
+    components.push_back(std::move(comp));
+    return components.back().get();
+}
 
 // template<typename T>
 // const T* Entity::GetComponent() const {
@@ -33,7 +35,7 @@ void Entity::addComponent(Component* comp)
 
 void Entity::init()
 {
-    for (auto* component : components) {
+    for (auto& component : components) {
         if (component) {
             component->init();
         }
@@ -47,15 +49,6 @@ void Entity::update()
     }
 }
 
-void Entity::refreshComponentOwners()
-{
-    for (auto* component : components) {
-        if (component) {
-            component->setEntity(this);
-        }
-    }
-}
-
 void Entity::setId(uint16_t givenId)
 {
     id_ = givenId;
@@ -65,7 +58,7 @@ void Entity::DebugPrintComponents() const {
     std::cout << "Entity '" << name << "' components (" << components.size() << "):\n";
     
     for (size_t i = 0; i < components.size(); ++i) {
-        auto* comp = components[i];
+        const auto& comp = components[i];
         if (comp) {
             std::cout << "  [" << i << "] " << comp->GetName() 
                       << " (ID: " << comp->GetRuntimeTypeID() << ")\n";

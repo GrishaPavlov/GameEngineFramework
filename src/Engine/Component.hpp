@@ -8,7 +8,7 @@ class Entity;
 class Component {
 public:
     Component();
-    ~Component() = default;
+    virtual ~Component() = default;
     void setEntity(Entity* ent);
     Entity* getEntity();
     virtual void update() { };

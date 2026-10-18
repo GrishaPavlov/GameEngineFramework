@@ -1,27 +1,12 @@
 #include "TransformComponent.hpp"
 
-TransformComponent::TransformComponent() {
-    transform = sf::Transform();
-    position = sf::Vector2f(0, 0);
-}
-
-sf::Transform* TransformComponent::getTransform()
+sf::Transform TransformComponent::getTransform() const
 {
-    return &transform;
-}
-
-sf::Vector2f TransformComponent::getPosition()
-{
-    return sf::Vector2f(x, y);
-}
-
-void TransformComponent::init()
-{
-}
-
-void TransformComponent::update()
-{
-    position = sf::Vector2f(x, y);
+    sf::Transform transform;
+    transform.translate(position);
+    transform.rotate(sf::degrees(rotation));
+    transform.scale(scale);
+    return transform;
 }
 
 void TransformComponent::draw()
@@ -31,6 +16,7 @@ void TransformComponent::draw()
     if (ent) {
         ImGui::Text("Entity: %s", ent->GetName().c_str());
     }
-    ImGui::DragFloat("X", &x, 1.0f);
-    ImGui::DragFloat("Y", &y, 1.0f);
+    ImGui::DragFloat2("Position", &position.x, 1.0f);
+    ImGui::DragFloat("Rotation", &rotation, 1.0f);
+    ImGui::DragFloat2("Scale", &scale.x, 0.01f);
 }

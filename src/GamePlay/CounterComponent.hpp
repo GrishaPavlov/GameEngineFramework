@@ -9,7 +9,6 @@ class CounterComponent : public Component
 public:
     CounterComponent();
     CounterComponent(int c);
-    ~CounterComponent();
     void init() override;
     void update() override;
     void draw() override;

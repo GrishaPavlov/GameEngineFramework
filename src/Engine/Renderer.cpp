@@ -32,7 +32,7 @@ void Renderer::drawScene()
     }
 
     for (auto& entity : currentScene_->getEntities()) {
-        if (auto* sprite = entity.GetComponent<SpriteRenderer>()) {
+        if (auto* sprite = entity->GetComponent<SpriteRenderer>()) {
             sprite->drawTo(*window_);
         }
     }

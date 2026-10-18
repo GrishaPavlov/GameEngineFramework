@@ -1,32 +1,20 @@
 #include "Scene.hpp"
 
-
-Scene& Scene::operator=(const Scene& other)
+Entity& Scene::createEntity(std::string name)
 {
-    name_ = other.name_;
-    entities_ = other.entities_;
-    
-    return *this;
+    return addObject(std::make_unique<Entity>(std::move(name)));
 }
 
-
-
-// template <typename T>
-void Scene::addObject(Entity entity)
+Entity& Scene::addObject(std::unique_ptr<Entity> entity)
 {
-    entities_.push_back(entity);
-    entities_.back().refreshComponentOwners();
+    entities_.push_back(std::move(entity));
+    return *entities_.back();
 }
 
 void Scene::update()
 {
-    for (auto &e : entities_)
+    for (auto& e : entities_)
     {
-        e.update();
+        e->update();
     }
-}
-
-Scene::~Scene()
-{
-    
 }

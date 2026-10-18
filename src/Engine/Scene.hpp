@@ -1,31 +1,33 @@
 #pragma once
 #include "Entity.hpp"
+#include <memory>
 #include <string>
+#include <vector>
+
 class Scene {
 public:
     Scene() = default;  // Пустая сцена
     Scene(std::string name) : name_(std::move(name)), entities_() {}
-    Scene(std::string name, std::vector<Entity> entities) 
-        : name_(std::move(name)), entities_(std::move(entities)) {}
-    
-    Scene& operator=(const Scene& other);
 
-    std::vector<Entity>& getEntities()
+    // Сцена владеет объектами через unique_ptr: адреса Entity стабильны,
+    // даже когда вектор перевыделяется, поэтому указатели на них
+    // (из компонентов и редактора) не протухают.
+    std::vector<std::unique_ptr<Entity>>& getEntities()
     {
         return entities_;
     }
 
     // Возвращает константную ссылку (для чтения)
-    const std::vector<Entity>& getEntities() const
+    const std::vector<std::unique_ptr<Entity>>& getEntities() const
     {
         return entities_;    
     }
 
-    void addObject(Entity entity);
+    Entity& createEntity(std::string name);
+    Entity& addObject(std::unique_ptr<Entity> entity);
     void update();
-    ~Scene();
 
 private:
     std::string name_;
-    std::vector<Entity> entities_;
+    std::vector<std::unique_ptr<Entity>> entities_;
 };

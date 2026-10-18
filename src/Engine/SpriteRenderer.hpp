@@ -29,7 +29,7 @@ public:
 
 private:
     sf::Texture createEmptyTexture();
-    sf::Vector2f getObjectPosition();
+    void syncWithTransform();
 
     sf::Texture texture;
     sf::Sprite sprite { texture };

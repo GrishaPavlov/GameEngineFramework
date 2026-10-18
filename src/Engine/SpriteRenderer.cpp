@@ -10,24 +10,25 @@ SpriteRenderer::SpriteRenderer(const std::string& texturePath)
 
 void SpriteRenderer::init()
 {
-    sprite.setPosition(getObjectPosition());
+    syncWithTransform();
 }
 
 void SpriteRenderer::update()
 {
-    sprite.setPosition(getObjectPosition());
+    syncWithTransform();
 }
 
-sf::Vector2f SpriteRenderer::getObjectPosition()
+void SpriteRenderer::syncWithTransform()
 {
     Entity* ent = getEntity();
-    if (ent) {
-        if (auto* tc = ent->GetComponent<TransformComponent>()) {
-            return tc->getPosition();
-        }
-        return ent->getPosition();
+    if (!ent) {
+        return;
     }
-    return sf::Vector2f(0, 0);
+    if (const auto* tc = ent->GetComponent<TransformComponent>()) {
+        sprite.setPosition(tc->position);
+        sprite.setRotation(sf::degrees(tc->rotation));
+        sprite.setScale(tc->scale);
+    }
 }
 
 void SpriteRenderer::draw()
