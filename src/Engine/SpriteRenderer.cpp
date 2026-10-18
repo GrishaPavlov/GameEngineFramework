@@ -5,7 +5,7 @@ SpriteRenderer::SpriteRenderer(const std::string& texturePath)
     if (!texture.loadFromFile(texturePath)) {
         std::cerr << "Failed to load: " << texturePath << std::endl;
     }
-    sprite.setTexture(texture);
+    sprite.setTexture(texture, true);
 }
 
 void SpriteRenderer::init()
@@ -47,7 +47,7 @@ void SpriteRenderer::setTexture(const std::string& path)
         std::cerr << "Failed to load: " << path << std::endl;
         return;
     }
-    sprite.setTexture(texture);
+    sprite.setTexture(texture, true);
 }
 
 sf::Texture SpriteRenderer::createEmptyTexture()
