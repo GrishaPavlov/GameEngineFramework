@@ -12,7 +12,7 @@ public:
     SpriteRenderer() = default;
     SpriteRenderer(const std::string& texturePath);
     void init() override;
-    void update() override;
+    void update(float dt) override;
     void draw() override;
 
     void drawTo(sf::RenderTarget& target);

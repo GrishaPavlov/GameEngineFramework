@@ -11,10 +11,10 @@ Entity& Scene::addObject(std::unique_ptr<Entity> entity)
     return *entities_.back();
 }
 
-void Scene::update()
+void Scene::update(float dt)
 {
     for (auto& e : entities_)
     {
-        e->update();
+        e->update(dt);
     }
 }

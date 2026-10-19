@@ -9,16 +9,16 @@ CounterComponent::CounterComponent()
 
 CounterComponent::CounterComponent(int c)
 {
-    counter = c;
+    counter = static_cast<float>(c);
 }
 
 void CounterComponent::init()
 {
 }
 
-void CounterComponent::update()
+void CounterComponent::update(float dt)
 {
-    counter++;
+    counter += dt;
     // if (counter % 10)
         // std::cout << counter << std::endl;
 }
@@ -26,9 +26,9 @@ void CounterComponent::update()
 void CounterComponent::draw()
 {
     ImGui::Separator();
-    ImGui::Text(std::to_string(counter).c_str());
+    ImGui::Text("Counter: %.2f s", counter);
     Entity* ent = getEntity();
     if (ent) {
-        ImGui::Text(ent->GetName().c_str());
+        ImGui::TextUnformatted(ent->GetName().c_str());
     }
 }
