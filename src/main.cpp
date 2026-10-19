@@ -97,9 +97,10 @@ int main(int argc, char** argv)
             }
         }
 
-        ImGui::SFML::Update(window, deltaClock.restart());
+        const sf::Time dt = deltaClock.restart();
+        ImGui::SFML::Update(window, dt);
 
-        test.update();
+        test.update(dt.asSeconds());
 
         renderer.Draw();
     }

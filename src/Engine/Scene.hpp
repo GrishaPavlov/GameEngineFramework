@@ -25,7 +25,7 @@ public:
 
     Entity& createEntity(std::string name);
     Entity& addObject(std::unique_ptr<Entity> entity);
-    void update();
+    void update(float dt);
 
 private:
     std::string name_;

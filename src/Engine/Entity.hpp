@@ -33,7 +33,7 @@ public:
     }
 
     void init();
-    void update();
+    void update(float dt);
     void setId(uint16_t);
     void SetName(const std::string& newName) { name = newName; }
     const std::vector<std::unique_ptr<Component>>& GetComponents() const { return components; }

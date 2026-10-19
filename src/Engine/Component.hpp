@@ -11,7 +11,7 @@ public:
     virtual ~Component() = default;
     void setEntity(Entity* ent);
     Entity* getEntity();
-    virtual void update() { };
+    virtual void update(float dt) { (void)dt; };
     virtual void init() { };
     virtual void draw() { };
 

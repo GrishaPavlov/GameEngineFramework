@@ -10,7 +10,7 @@ public:
     CounterComponent();
     CounterComponent(int c);
     void init() override;
-    void update() override;
+    void update(float dt) override;
     void draw() override;
 
     
@@ -21,5 +21,5 @@ public:
         return Component::GetTypeID<CounterComponent>(); // ← Вызываем шаблон!
     }
 private:
-    int counter;
+    float counter; // секунды с начала работы
 };

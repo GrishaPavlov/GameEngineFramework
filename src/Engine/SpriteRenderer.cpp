@@ -13,7 +13,7 @@ void SpriteRenderer::init()
     syncWithTransform();
 }
 
-void SpriteRenderer::update()
+void SpriteRenderer::update(float)
 {
     syncWithTransform();
 }

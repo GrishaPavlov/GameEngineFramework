@@ -1,8 +1,8 @@
 #include "Entity.hpp"
 
 Entity::Entity()
-    : name("")
-    , id_(0)
+    : id_(0)
+    , name("")
 {
 }
 
@@ -42,10 +42,10 @@ void Entity::init()
     }
 }
 
-void Entity::update()
+void Entity::update(float dt)
 {
     for (auto& component : components) {
-        component->update();
+        component->update(dt);
     }
 }
 

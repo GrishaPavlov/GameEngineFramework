@@ -32,7 +32,10 @@ void Inspector::Draw()
             curEntity_->SetName(name_);
         }
         for (auto& c : curEntity_->GetComponents()) {
-            ImGui::Text(c->GetName().data());
+            // Уникальный ID для каждого компонента, чтобы одинаковые подписи
+            // (например, "Position") в разных компонентах не конфликтовали.
+            ImGui::PushID(c.get());
+            ImGui::TextUnformatted(c->GetName().c_str());
             if (auto* sr = dynamic_cast<SpriteRenderer*>(c.get())) {
                 const auto& t = sr->getCurrentTexture();
                 if (t.getSize().x > 0 && t.getSize().y > 0) {
@@ -43,6 +46,7 @@ void Inspector::Draw()
                 }
             }
             c->draw();
+            ImGui::PopID();
         }
     } else {
         ImGui::InputTextWithHint("Empty name", "Entity name", nameBuf_, sizeof(nameBuf_), ImGuiInputTextFlags_ReadOnly);
