@@ -1,3 +1,4 @@
+#include "Engine/ComponentRegistry.hpp"
 #include "Engine/SpriteRenderer.hpp"
 #include "Engine/TransformComponent.hpp"
 #include "Engine/Editor/Editor.hpp"
@@ -68,16 +69,25 @@ int main(int argc, char** argv)
     window.setFramerateLimit(144);
     (void)ImGui::SFML::Init(window);
 
+    const std::string texturePath = ResolveTexturePath(argv0);
+
+    ComponentRegistry registry;
+    registry.Register<TransformComponent>("Transform");
+    registry.Register<SpriteRenderer>("Sprite Renderer",
+        [texturePath] { return std::make_unique<SpriteRenderer>(texturePath); });
+    registry.Register<CounterComponent>("Counter Component");
+
     Scene test("Test");
 
     Entity& counter = test.createEntity("Counter");
     auto* transform = counter.addComponent<TransformComponent>();
     transform->position = { 200.f, 200.f };
     counter.addComponent<CounterComponent>(5);
-    counter.addComponent<SpriteRenderer>(ResolveTexturePath(argv0));
+    counter.addComponent<SpriteRenderer>(texturePath);
     counter.init();
 
     Inspector insp;
+    insp.SetComponentRegistry(registry);
     Hierarchy hierarchy(test, insp);
     Editor editor(insp);
     editor.SetHierarchy(hierarchy);

@@ -1,4 +1,5 @@
 #include "Entity.hpp"
+#include <algorithm>
 
 Entity::Entity()
     : id_(0)
@@ -20,6 +21,27 @@ Component* Entity::addComponent(std::unique_ptr<Component> comp)
     comp->setEntity(this);
     components.push_back(std::move(comp));
     return components.back().get();
+}
+
+bool Entity::removeComponent(Component* comp)
+{
+    auto it = std::find_if(components.begin(), components.end(),
+        [comp](const std::unique_ptr<Component>& c) { return c.get() == comp; });
+    if (it == components.end()) {
+        return false;
+    }
+    components.erase(it);
+    return true;
+}
+
+bool Entity::HasComponentOfType(uint32_t typeId) const
+{
+    for (auto& comp : components) {
+        if (comp && comp->GetRuntimeTypeID() == typeId) {
+            return true;
+        }
+    }
+    return false;
 }
 
 // template<typename T>
