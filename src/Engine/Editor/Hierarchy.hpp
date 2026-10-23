@@ -14,4 +14,5 @@ public:
 private:
     Scene& scene;              // ← Ссылка!
     Inspector* inspector;
+    int nextEntityIndex_ = 1;  // Для имён по умолчанию: "Entity 1", "Entity 2", ...
 };

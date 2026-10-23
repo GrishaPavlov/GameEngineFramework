@@ -21,6 +21,8 @@ public:
     Entity& operator=(Entity&&) = delete;
 
     Component* addComponent(std::unique_ptr<Component> comp);
+    // Уничтожает компонент. Указатели на него после этого невалидны.
+    bool removeComponent(Component* comp);
 
     template <typename T, typename... Args>
     T* addComponent(Args&&... args)
@@ -68,6 +70,8 @@ public:
     {
         return GetComponent<T>() != nullptr;
     }
+
+    bool HasComponentOfType(uint32_t typeId) const;
 
 private:
     uint16_t id_ = 0;

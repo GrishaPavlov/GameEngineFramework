@@ -25,6 +25,8 @@ public:
 
     Entity& createEntity(std::string name);
     Entity& addObject(std::unique_ptr<Entity> entity);
+    // Удаляет объект из сцены. Все указатели на него после этого невалидны.
+    bool destroyEntity(Entity& entity);
     void update(float dt);
 
 private:
